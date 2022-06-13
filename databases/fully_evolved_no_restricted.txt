@@ -201,10 +201,6 @@ Registeel
 Latias
 Latios
 Jirachi
-Deoxys (Normal Forme)
-Deoxys (Attack Forme)
-Deoxys (Defense Forme)
-Deoxys (Speed Forme)
 Torterra
 Infernape
 Empoleon
