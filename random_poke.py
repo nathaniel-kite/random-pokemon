@@ -31,7 +31,7 @@ def main():
 		print("Please specify a valid format.")
 		exit(1)
 
-	print("Your pokemon:\n")
+	print("Your Pokemon:\n")
 
 	for mon in pokemon:
 		print(mon)
