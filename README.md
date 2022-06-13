@@ -7,4 +7,4 @@ For a draft, do:
 For just a random list, do:
 `python random_poke.py random` or `python random_poke.py r`
 
-By default, the program generates either 18 random pokemon, or a draft with 8 rounds and 4 options per  round. Change these by modifying the constants in `random_poke.py`.
+By default, the program generates either 18 random pokemon, or a draft with 8 rounds and 4 options per  round. If you'd like, you can change these by modifying the constants in `random_poke.py`.
