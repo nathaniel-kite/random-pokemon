@@ -81,7 +81,6 @@ Galarian Zapdos
 Moltres
 Galarian Moltres
 Dragonite
-Mew
 Typhlosion
 Feraligatr
 Furret
@@ -103,7 +102,6 @@ Espeon
 Umbreon
 Slowking
 Galarian Slowking
-Unown
 Wobbuffet
 Girafarig
 Forretress
@@ -131,7 +129,6 @@ Raikou
 Entei
 Suicune
 Tyranitar
-Celebi
 Sceptile
 Blaziken
 Swampert
@@ -200,7 +197,6 @@ Regice
 Registeel
 Latias
 Latios
-Jirachi
 Torterra
 Infernape
 Empoleon
@@ -268,9 +264,6 @@ Azelf
 Heatran
 Regigigas
 Cresselia
-Phione
-Manaphy
-Victini
 Serperior
 Emboar
 Samurott
@@ -384,7 +377,6 @@ Gourgeist
 Avalugg
 Noivern
 Diancie
-Volcanion
 Decidueye
 Incineroar
 Primarina
@@ -433,12 +425,9 @@ Xurkitree
 Celesteela
 Kartana
 Guzzlord
-Magearna
-Marshadow
 Naganadel
 Stakataka
 Blacephalon
-Zeraora
 Rillaboom
 Cinderace
 Inteleon
@@ -484,6 +473,5 @@ Arctovish
 Duraludon
 Dragapult
 Urshifu
-Zarude
 Regieleki
 Regidrago
