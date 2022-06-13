@@ -274,9 +274,6 @@ Regigigas
 Cresselia
 Phione
 Manaphy
-Darkrai
-Shaymin (Land Forme)
-Shaymin (Sky Forme)
 Victini
 Serperior
 Emboar
@@ -358,7 +355,6 @@ Thundurus (Therian Forme)
 Landorus (Incarnate Forme)
 Keldeo
 Meloetta
-Genesect
 Chesnaught
 Delphox
 Greninja
@@ -392,8 +388,6 @@ Gourgeist
 Avalugg
 Noivern
 Diancie
-Hoopa (Confined)
-Hoopa (Unbound)
 Volcanion
 Decidueye
 Incineroar
@@ -449,7 +443,6 @@ Naganadel
 Stakataka
 Blacephalon
 Zeraora
-Melmetal
 Rillaboom
 Cinderace
 Inteleon
