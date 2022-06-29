@@ -31,7 +31,7 @@ def main():
 		print("Please specify a valid format.")
 		exit(1)
 
-	print("Your Pokemon:\n")
+	print("Your Pokémon:\n")
 
 	for mon in pokemon:
 		print(mon)
@@ -101,12 +101,20 @@ def random_pokemon(count):
 			pokemon.append(line.strip())
 			line_count += 1
 
+	if count >= line_count:
+		print(f"Error: {count} random Pokémon requested, but only {line_count} exist in database")
+		exit(1)
+
 	ids = []
 
-	# Get list of random integers
+	# Get list of unique, random integers
 	for i in range(count):
-		rand_id = random.randint(0, line_count - 1)
-		ids.append(rand_id)
+		while True:
+			rand_id = random.randint(0, line_count - 1)
+
+			if not rand_id in ids:
+				ids.append(rand_id)
+				break
 
 	ids.sort()
 	out = []
