@@ -2,6 +2,7 @@ import random
 import sys
 
 # Number of pokemon you can choose from in each round of a draft
+# Modifying this is a very bad idea that will break the code
 DRAFT_OPTION_COUNT = 4
 
 # Number of rounds in a draft
@@ -47,7 +48,7 @@ def draft(options, rounds):
 	picks = []
 
 	for i in range(rounds):
-		options = random_pokemon(4)
+		options = random_pokemon(DRAFT_OPTION_COUNT)
 
 		# Print options
 		print(f"Pick {i + 1}:")
@@ -63,22 +64,31 @@ def draft(options, rounds):
 		while (True):
 			choice = input("Choose one to draft: ")
 
-			if (choice == "A" or choice == "B" or choice == "C" or choice == "D"):
+			# Successful if A, B, C, or D
+			if (
+				choice.upper().strip() == "A" or
+				choice.upper().strip() == "B" or
+				choice.upper().strip() == "C" or
+				choice.upper().strip() == "D"):
+				break
+
+			# Successful if the name of one of the available pokemon
+			if choice.upper().strip() in list(map(str.upper, options)):
 				break
 
 			print("Please enter A, B, C, or D.")
 
 		# Add player choice to list
-		if (choice == "A"):
+		if (choice == "A" or choice.upper() == options[0].upper()):
 			picks.append(options[0])
 			print(f"You drafted {options[0]}!")
-		elif (choice == "B"):
+		elif (choice == "B" or choice.upper() == options[1].upper()):
 			picks.append(options[1])
 			print(f"You drafted {options[1]}!")
-		elif (choice == "C"):
+		elif (choice == "C" or choice.upper() == options[2].upper()):
 			picks.append(options[2])
 			print(f"You drafted {options[2]}!")
-		elif (choice == "D"):
+		elif (choice == "D" or choice.upper() == options[3].upper()):
 			picks.append(options[3])
 			print(f"You drafted {options[3]}!")
 
