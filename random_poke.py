@@ -62,7 +62,7 @@ def draft(options, rounds):
 
 		# Get player input
 		while (True):
-			choice = input("Choose one to draft: ").upper.strip()
+			choice = input("Choose one to draft: ").upper().strip()
 
 			# Successful if A, B, C, or D
 			if (
