@@ -62,14 +62,14 @@ def draft(options, rounds):
 
 		# Get player input
 		while (True):
-			choice = input("Choose one to draft: ")
+			choice = input("Choose one to draft: ").upper.strip()
 
 			# Successful if A, B, C, or D
 			if (
-				choice.upper().strip() == "A" or
-				choice.upper().strip() == "B" or
-				choice.upper().strip() == "C" or
-				choice.upper().strip() == "D"):
+				choice == "A" or
+				choice == "B" or
+				choice == "C" or
+				choice == "D"):
 				break
 
 			# Successful if the name of one of the available pokemon
@@ -79,16 +79,16 @@ def draft(options, rounds):
 			print("Please enter A, B, C, or D.")
 
 		# Add player choice to list
-		if (choice == "A" or choice.upper() == options[0].upper()):
+		if (choice == "A" or choice == options[0].upper()):
 			picks.append(options[0])
 			print(f"You drafted {options[0]}!")
-		elif (choice == "B" or choice.upper() == options[1].upper()):
+		elif (choice == "B" or choice == options[1].upper()):
 			picks.append(options[1])
 			print(f"You drafted {options[1]}!")
-		elif (choice == "C" or choice.upper() == options[2].upper()):
+		elif (choice == "C" or choice == options[2].upper()):
 			picks.append(options[2])
 			print(f"You drafted {options[2]}!")
-		elif (choice == "D" or choice.upper() == options[3].upper()):
+		elif (choice == "D" or choice == options[3].upper()):
 			picks.append(options[3])
 			print(f"You drafted {options[3]}!")
 
