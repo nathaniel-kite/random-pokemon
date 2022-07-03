@@ -207,9 +207,7 @@ Luxray
 Roserade
 Rampardos
 Bastiodon
-Wormadam (Plant Cloak)
-Wormadam (Sandy Cloak)
-Wormadam (Trash Cloak)
+Wormadam (Any Cloak)
 Mothim
 Vespiquen
 Pachirisu
