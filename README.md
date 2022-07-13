@@ -20,6 +20,7 @@ By default, the program generates either 18 random pokemon, or a draft with 8 ro
 - Notably, no species clause! If you draft a pokemon twice, you can use it twice!
 - If the pokemon is in Gen 8, it uses its Gen 8 abilities, stats, etc.
 - If the pokemon is not in Gen 8, it only has access to moves that exist in Gen 8
+- Picking a pokemon gives you access to all of its pre-evolutions (so, if you draft Dusknoir, you could use Dusklops instead)
 
 #### Notably unavailable moves:
 - Frustration
